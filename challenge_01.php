@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 class Bicycle {
@@ -26,4 +27,20 @@ echo $bicycle1->name() . "<br />";
 echo $bicycle1->weight_kg . "<br />";
 echo $bicycle1->weight_lbs() . "<br />";
 
+=======
+<?php
+
+class Bycicle {
+    var $brand;
+    var $model;
+    var $year;
+    var $description;
+    var $weight_kg;
+
+    function name() {
+        return 'Hello World!';
+    }
+}
+
+>>>>>>> master
 ?>
